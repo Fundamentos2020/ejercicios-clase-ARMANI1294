@@ -1,0 +1,25 @@
+p{
+    color: aqua;
+}
+#parrafo2{
+    background-color: blue;
+}
+.clase1{
+    background-color: rgb(165, 236, 31);
+}
+input:focus{
+    background-color: chartreuse;
+}
+
+button:hover{
+    background-color: cyan;
+}
+
+p::first-letter{
+    font-size: 60px;
+}
+
+p::selection{
+    background-color: darkolivegreen;
+    color: darkorange;
+}
