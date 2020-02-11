@@ -1,0 +1,29 @@
+
+h1{
+    border-top: 2px solid black;
+    border-bottom: 2px solid blue;
+    padding: 20px, 0px,0px,0px;
+    color: rgba(red, green, blue, alpha);
+    text-align: center;
+    letter-spacing: 3px;
+}
+p{
+    text-indent: 50px;
+    text-align: center;
+}
+
+.p1{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.p3{
+    font-family: sans-serif;
+    font-size: large;
+}
+
