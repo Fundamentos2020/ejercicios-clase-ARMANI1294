@@ -1,0 +1,24 @@
+@keyframes ejemplo1{
+    0%{background-color: cadetblue;}
+    25%{background-color: chartreuse;}
+    50%{background-color: rebeccapurple;}
+    100%{background-color: darkgreen;}
+}
+#ej-trans{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    transition: height 2s;
+}
+
+#ej-trans:hover{
+    height: 200px;
+}
+
+#ej_anim{
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    animation-name: ejemplo1;
+    animation-duration: 2s;
+}
