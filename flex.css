@@ -1,0 +1,29 @@
+/*div{
+    width: 20%;
+    border: 10px;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}*/
+
+.flex-container{
+    background-color: seagreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    height: 400px;
+    /*align-items: baseline;*//* con baseline le decimos que empiese en la primera letra como libreta de raya, y con todos los comandosle estamos indicando que se quede con la altura del elemento o tamaño si no tiene otro definido */
+    align-content: space-between;
+}
+
+
+.flex-container div{
+    background-color: sienna;
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0.25em;
+
+}
